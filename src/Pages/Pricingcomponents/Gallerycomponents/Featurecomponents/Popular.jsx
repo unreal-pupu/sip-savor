@@ -4,7 +4,7 @@ import './Popular.css'
 import PB from '../../../../assets/PB.jpg'
 import PC from '../../../../assets/PC.jpg'
 import PD from '../../../../assets/PD.jpg'
-import PV from '../../../../assets/PV.JPG'
+import PV from '../../../../assets/PV.jpg'
 import PE from '../../../../assets/PE.jpg'
 
 const Popular = () => {
