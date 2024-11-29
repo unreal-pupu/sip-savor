@@ -31,7 +31,6 @@ import BN from '../../assets/BN.jpg'
 import CD from '../../assets/CD.jpg'
 import CF from '../../assets/CF.jpg'
 import CG from '../../assets/CG.jpg'
-import CH from '../../assets/CH.jpg'
 
 
 

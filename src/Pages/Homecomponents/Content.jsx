@@ -1,7 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import './Content.css'
-import BackD from '../../assets/BackD.jpg'
 import {motion} from 'framer-motion'
 import { div } from 'framer-motion/client'
 import { IoIosAdd } from "react-icons/io";

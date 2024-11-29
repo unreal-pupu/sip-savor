@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import './Dashboard.css'
-import Hero from '../../Pages/Pricingcomponents/Gallerycomponents/Featurecomponents/Hero'
+// import Hero from '../../Pages/Pricingcomponents/Gallerycomponents/Featurecomponents/Hero'
 import { div } from 'framer-motion/client'
 import DashB from '../../assets/DashB.jpg'
 import Deli from '../Deli'

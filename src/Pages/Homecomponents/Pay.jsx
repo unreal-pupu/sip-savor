@@ -1,6 +1,5 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import Payimg from '../../assets/Payimg.jpg'
 import './Pay.css'
 import Trast from '../../assets/Trast.jpg'
 

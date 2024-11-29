@@ -1,11 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import './Cards.css'
-import Resturant1 from '../../assets/Resturant1.jpg'
-import Review from '../../assets/Review.jpg'
-import Dinning from '../../assets/Dinning.jpg'
-import Delivery from '../../assets/Delivery1.jpg'
-
 import { BsQrCode } from "react-icons/bs";
 import { PiSmileyLight } from "react-icons/pi";
 import { SiAirtable } from "react-icons/si";

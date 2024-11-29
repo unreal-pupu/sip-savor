@@ -2,7 +2,6 @@
 import React from 'react'
 import './Enable.css'
 import WEM from '../../assets/WEM.jpg'
-import WC from '../../assets/WC.jpg'
 
 const Enable = () => {
   return (

@@ -5,8 +5,8 @@ import './Gift.css'
 
 const Gift = () => {
   return (
-    <div>
-        <div className="gift-container">
+    <>
+     <div className="gift-container">
         <img src={Birthday} alt=""  className='gift-img'/>
        <div className="gift-text-left">
         <h2 className='bookings-text-container-txt'>Gift Vouchers</h2>
@@ -16,7 +16,9 @@ const Gift = () => {
     </div>
 
 </div>
-    </div>
+
+    </>
+   
   )
 }
 

@@ -1,7 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import Next from '../../assets/Next.jpg'
-import AC from '../../assets/AC.jpg'
 import './Advertise.css'
 
 const Advrtise = () => {

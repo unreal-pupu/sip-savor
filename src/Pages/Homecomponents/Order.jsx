@@ -1,7 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import './Order.css'
-import Chairw from '../../assets/Chairw.jpg'
 
 const Order = () => {
   return (
