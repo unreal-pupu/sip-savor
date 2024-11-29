@@ -1,0 +1,44 @@
+
+.paymentbtn-container {
+    display: flex;
+    gap: 20px;
+    margin-top: 5rem;
+  }
+  
+  .pay-monthly {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .pay-monthly:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  .pay-yearly {
+    background-color: #880D1E;
+    color: white;
+    position: relative;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .pay-yearly:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+  }
+  
+  .savings-icon {
+    margin-left: 8px; 
+    font-size: 1.2em; 
+  }

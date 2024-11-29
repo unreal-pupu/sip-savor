@@ -1,0 +1,110 @@
+.bookings-content-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #F2F7F2;
+    border-radius: 64px 96px 32px 128px;
+}
+.bookings-text-container{
+    margin-left: 8rem;
+}
+.bookings-text-container h2 {
+    width: 450px;
+    text-transform: capitalize;
+    font-size: 40px;
+    margin-bottom: 3rem;
+    font-weight: 500;
+    font-family: "Quicksand", sans-serif;
+}
+
+.bookings-text-container h3 {
+    margin: 10px 0;
+}
+
+.bookings-text-container p {
+    width: 400px;
+    margin-bottom: 2rem;
+    color: #104147;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    margin-top: 2rem;
+}
+.content-anchor{
+    gap: 1.3rem;
+    width: 100%;
+    display: flex;
+}
+.content-newsletter {
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.content-newsletter input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #104147;
+    outline: none;
+    border-radius: 30px;
+}
+.content-newsletter input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    background-color: #104147;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #104147;
+    border-radius: 30px;
+    color: white;
+    top: 6px;
+    left: 19rem;
+    width: 220px;
+}
+img {
+    max-width: 450px; 
+    height: auto;
+    border-radius: 10px 100px 120px 100px ;
+    /* border-radius: 40% 60% 65% 35% / 40% 35% 65% 60%; */
+    /* border-radius: 50%; */
+    /* border-radius: 70% 50% 30% 10%; */
+    /* border-radius: 50% 20%; */
+
+
+    margin-right: 8rem;
+}
+.rating-container {
+    display: flex;
+  flex-wrap: wrap;
+  gap: 25px; 
+  margin-left: 20px; 
+  }
+  .rating-row {
+    display: inline-block;
+    width: 150px; 
+    vertical-align: top;
+  }
+  
+  .rating-row h3 {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin-bottom: 1rem;
+    color: #880D1E;
+    font-family: "Quicksand", sans-serif;
+  
+  }
+  
+  .rating-row .icon {
+    margin-right: 5px;
+    font-size: 24px;
+    color: #104147;
+    font-weight: 600;
+  }
+  .rating-row p {
+    margin: 0;
+    text-transform: capitalize;
+    font-family: "Quicksand", sans-serif;
+
+  }

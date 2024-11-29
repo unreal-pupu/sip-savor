@@ -1,0 +1,91 @@
+
+.drink-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.Drinks-header h2{
+    padding-top: 3rem;
+    width: 400px;
+    text-transform: capitalize;
+    font-family: "Quicksand", sans-serif;
+    font-size: 55px;
+    color:  #104147;
+    font-weight: 400;
+}
+
+.drink-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px; 
+    margin-top: 20px;
+
+/* 
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    height: 550px;
+    max-width: 250px;
+    transition: transform 0.3s ease-in-out; */
+}
+.drink-card h3{
+    text-transform: capitalize;
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    color:  #104147;
+    font-weight: 400;
+}
+.drink-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.drink-card p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.drink-button-container {
+    display: flex;
+    justify-content: space-between;
+}
+.add-to-cart {
+    background-color: #104147;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 48%; 
+    height: 30px;
+}
+
+.pay-now {
+    background-color: #d45d35;
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 48%;
+    height: 30px;
+}
+
+.add-to-cart:hover {
+    background-color: #d45d35;
+    color: #fff;
+}
+
+.pay-now:hover {
+    background-color: #104147;
+    color: #ffff;
+}
+

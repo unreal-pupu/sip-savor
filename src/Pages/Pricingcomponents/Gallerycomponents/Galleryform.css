@@ -1,0 +1,56 @@
+.photography-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-top: 5rem;
+  }
+  
+  .photography-form h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #104147;
+    text-transform: capitalize;
+    font-family: "Quicksand", sans-serif;
+    width: 360px;
+    font-weight: 500;
+    
+  }
+  
+  .photography-form label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    color: #333;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+  }
+  
+  .photography-form input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: "Quicksand", sans-serif;
+  }
+  
+  .photography-form button {
+    padding: 10px;
+    background-color:  #104147;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+  }
+  
+  .photography-form button:hover {
+    background-color: #d45d35;
+  }

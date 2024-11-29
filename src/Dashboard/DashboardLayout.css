@@ -1,0 +1,8 @@
+.dashboard-container {
+    display: flex;
+    gap: 500px;
+}
+
+.dashboard-main{
+    width: 100%;
+}

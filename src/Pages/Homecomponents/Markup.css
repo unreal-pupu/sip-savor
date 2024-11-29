@@ -1,0 +1,16 @@
+.mark-container{
+    text-align: center;
+    margin-top: 10rem;
+}
+.mark-container p{
+    font-size: 28px;
+  margin-bottom: 30px;
+}
+.icons-classcontainer{
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+}
+.ict{
+    font-size: 50px;
+}

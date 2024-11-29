@@ -1,0 +1,24 @@
+.back-top{
+    position: fixed;
+    border: 2rem;
+    bottom: 2rem;
+    right: 2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d45d35;
+    border-radius: 0.5rem;
+    transition: 0.2s ease-out;
+    max-width: 60px;
+}
+.back-icon{
+    color: aliceblue;
+    font-size: 3rem;
+    transition: 0.2s ease-out;
+}
+.back-top:hover{
+    background-color: #104147;
+}
+.back-top:hover .back-icon{
+    transform: translateY(-4px);
+}

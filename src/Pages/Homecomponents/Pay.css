@@ -1,0 +1,35 @@
+.pay-container{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    margin-top: 7rem;
+}
+.pay-text-left{
+    padding-left: 8rem; 
+}
+.pay-text-left h2{
+    font-size:40px;
+    width: 530px;
+    margin-top: 5rem;
+    padding-left: 2rem;
+    text-transform: capitalize;
+    font-family: "Quicksand", sans-serif;
+    margin-bottom: 2rem;
+    color: #104147;
+    font-weight: 500;
+}
+.long{
+    font-size: 20px;
+    margin-top: 2rem;
+    padding-left: 2rem;
+    text-transform: lowercase;
+    font-family: "Quicksand", sans-serif;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    width: 750px;
+}
+.Trast{
+    width: 550px;
+    height: auto;
+    margin-right: 25rem;
+}

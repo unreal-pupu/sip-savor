@@ -1,0 +1,40 @@
+.qr-container {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.qr-text-content {
+    flex: 1;
+}
+.qr-text-content h1{
+    font-size: 40px;
+    margin-top: 3rem;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: "Quicksand", sans-serif;
+    margin-bottom: 1rem;
+    color: #104147;
+    width: 750px;
+    font-weight: 500;
+}
+.qr-text-content p{
+    color: #104147;
+    font-family: "Quicksand", sans-serif;
+    width: 500px;
+    padding-left: 3rem;
+    font-weight: 400;
+}
+
+.qr-image-content {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.qr-image-content img {
+    width: 100%;
+    height: 500px;
+    border-radius: 10px 100px 120px 100px;
+    filter: brightness(-50);
+}

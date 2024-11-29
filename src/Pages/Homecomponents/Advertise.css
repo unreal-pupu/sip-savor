@@ -1,0 +1,38 @@
+.Advert-container{
+    margin-top: 7rem;
+    display: flex;
+    align-items: stretch;
+   justify-content: space-between;
+    padding: 0 70px; 
+}
+.advert-text-content{
+    max-width: 50%;         
+    margin-left: 7rem;   
+    display: flex;
+    flex-direction: column; 
+}
+
+.advertim{
+    margin-right: 13rem;
+    border-radius: 64px 96px 32px 128px ;
+    height: auto;
+    margin-top: 2rem;
+}
+.Advert-container h1{
+    padding-top: 2rem;
+    display: block;
+    width: 620px;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+    font-family: "Quicksand", sans-serif;
+    font-size: 40px;
+    color:  #104147;
+    font-weight: 500;
+}
+.Advert-container p{
+    font-family: "Quicksand", sans-serif;
+    padding-top: 3rem;
+    width: 770px;
+    font-weight: 400;
+    font-size: 19px;
+}

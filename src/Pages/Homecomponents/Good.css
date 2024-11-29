@@ -1,0 +1,32 @@
+
+.good-container{
+    margin-top: 1rem;
+    display: flex;
+    align-items: stretch;
+  justify-content: space-between;
+  font-size: 18px;
+  padding: 0 70px; 
+}
+.good-content h2{
+    font-size: 36px;
+    margin-top: 5rem;
+    text-transform: capitalize;
+    font-family: "Quicksand", sans-serif;
+    margin-bottom: 1rem;
+    width: 500px;
+    color: #104147;
+    font-weight: 500;
+}
+.good-content p{
+    font-weight: 400;
+    font-family: "Quicksand", sans-serif;
+    margin-bottom: 2rem;
+    width: 400px;
+    font-size: 20px;
+}
+.good-img{
+    max-width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 600px;
+    border-radius: 100px 10px 120px 100px ;
+}

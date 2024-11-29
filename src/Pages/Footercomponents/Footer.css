@@ -1,0 +1,89 @@
+.footer-cont{
+    margin-top: 120px;
+    width: 100%;
+    background:  #cbeef3;
+    display: flex;
+    height: 50vh;
+}
+.footer-cont div{
+    text-align: center;
+    margin-top: 6rem;
+}
+.col-2{
+    flex-grow: 2;
+}
+.col-1 h3{
+    font-size: 25px;
+    text-transform: uppercase;
+    padding-left: 2rem;
+    font-family: "Quicksand", sans-serif;
+    color:  #104147;
+    font-weight: 500;
+}
+.col-2 h3{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: "Quicksand", sans-serif;
+    color: #104147;
+    font-weight: 600;
+}
+.col-3 h3{
+    text-transform: uppercase;
+    font-family: "Quicksand", sans-serif;
+    color: #104147;
+    font-weight: 600;
+    padding-right: 2rem;
+}
+.col-1 ul li{
+    text-transform: capitalize;
+    color: #000;
+}
+.footer-cont div h3{
+    font-weight: 300;
+    letter-spacing: 1;
+    margin-bottom: 30px;
+}
+.col-1 ul li{
+    list-style-type: none;
+    display: block;
+    color: #880D1E;
+    margin-bottom: 10px;
+}
+.col-2 input{
+    width: 350px;
+    height: 40px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    outline: none;
+    margin-bottom: 40px;
+    border: none;
+    text-transform: capitalize;
+}
+.foot-btn{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: capitalize;
+   
+}
+.social-icon .fb:hover{
+    transform: scale(1.2);
+
+    color: #880D1E;
+}
+.social-icon{
+    margin-top: 50px;
+}
+.social-icon .fb{
+    font-size: 22px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform .4s;
+    color: #880D1E;
+}

@@ -1,0 +1,33 @@
+.Camp-container{
+    margin-top: 7rem;
+    display: flex;
+    align-items: stretch;
+  justify-content: space-between;
+  font-size: 18px;
+  padding: 0 70px; 
+  height: 100vh; 
+}
+.Camp-text-content{
+    max-width: 50%;         
+    margin-left: 30px;   
+    display: flex;
+    flex-direction: column; 
+}
+.Camp-text-content h2{
+    font-size: 36px;
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+    text-transform: capitalize;
+    font-family: "Quicksand", sans-serif;
+    color: #d45d35;
+}
+.Camp-text-content p{
+    margin-bottom: 10px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    padding-left: 2rem;
+}
+.camp-image-content img{
+    border-radius: 100px 10px 120px 100px ;
+    height: 600px;
+}

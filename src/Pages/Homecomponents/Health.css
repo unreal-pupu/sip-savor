@@ -1,0 +1,87 @@
+.health-main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    position: relative;
+    margin-top: 7rem;
+  }
+  .health-heading {
+    position: absolute;
+    text-transform: capitalize;
+    left: 30%;
+    transform: translateX(-50%);
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 7rem;
+    color: #104147;
+    margin-bottom: 7rem;
+  }
+  .healt-cards-container {
+    position: relative;
+    display: flex;
+    gap: 0; 
+    margin-top: 10rem;
+    margin-left: 10rem;
+   
+  }
+  .health-card {
+    background-color: #F2F7F2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .health-card h2 {
+    font-size:25px;
+    width: 200px;
+    margin-top: 1rem;
+    text-transform: capitalize;
+    font-family: "Quicksand", sans-serif;
+    margin-bottom: 1rem;
+    color: #104147;
+    font-weight: 500;
+  }
+  
+  .health-card p {
+    text-transform: lowercase;
+    font-family: "Quicksand", sans-serif;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    font-size: 14px;
+    color: #666;
+  }
+  .health-card .cardonth {
+    z-index: 1;
+  }
+  .health-card .cardtwo {
+    z-index: 2;
+    margin-left: -50px;
+    margin-top: -30px; 
+  }
+  .health-right-side{
+    text-align: right;
+    width: 550px;
+   margin-right: 15rem;
+  }
+  .health-right-side h1 {
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 7rem;
+    color: #104147;
+    margin-bottom: 2rem;
+    margin-top: 10rem;
+  }
+  .health-right-side p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+  }
+  .health-card:hover {
+    transform: translateY(-10px);
+  }

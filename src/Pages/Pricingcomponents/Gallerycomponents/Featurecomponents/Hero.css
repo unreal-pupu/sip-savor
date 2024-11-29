@@ -1,0 +1,76 @@
+.hero{
+    background-color:  #CBEEF3;
+    color: white;
+    text-align: center;
+    text-align: center;
+    height: 50vh;
+   
+}
+.hero h1{
+    font-size: 40px;
+    color:#d45d35;
+    padding-top: 5rem;
+    text-transform: capitalize;
+    font-family: "Quicksand", sans-serif;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+  .hero p {
+    margin-bottom: 2rem;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    color: #104147;
+  }
+  .hero-search-bar {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  .hero-search-bar {
+    width: 580px;
+    max-width: 100%;
+    position: relative;
+    margin-left: 40rem;
+  }
+  .hero-search-bar input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #d45d35;
+    outline: none;
+    border-radius: 30px;
+  }
+  .hero-search-bar input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #d45d35;
+    color: #fff;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 6px;
+    right: 6px;
+    width: 200px;
+  }
+
+
+
+  .hero-btn {
+    cursor: pointer;
+    font-weight: 400;
+    text-transform: capitalize;
+    border: 2px solid transparent;
+    transition: transform .4s;
+    color: #25161b;
+    height: 50px;
+    font-family: "Quicksand", sans-serif;
+    text-decoration: none;
+    border: 2px solid #880D1E;
+    font-size: 1em;
+    width: 120px;
+  }
+  .hero-btn:hover{
+    transform: scale(1.2);
+  }

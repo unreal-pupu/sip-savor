@@ -1,0 +1,32 @@
+.gift-container{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.gift-text-left{
+    padding-right: 20px; 
+}
+.gift-text-left h2{
+    font-size: 36px;
+    margin-top: 5rem;
+    padding-right: 6rem;
+    text-transform: capitalize;
+    font-family: "Quicksand", sans-serif;
+    color:  #d45d35;
+    font-weight: 500;
+}
+.gift-img{
+    width: 500px;
+    margin-left: 5rem;
+    border-radius: 32px 64px 64px 32px;
+}
+.short{
+    font-size: 20px;
+    padding-right: 6rem;
+    text-transform: lowercase;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    width: 560;
+}
+

@@ -1,0 +1,36 @@
+.deal-banner {
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .deal-banner img {
+    width: 500px;
+    height: 500px;
+    border-radius: 100px 120px 100px 10px;
+    
+  }
+  
+  .deal-info h3 {
+    text-align: center;
+    color: #104147;
+    text-transform: capitalize;
+    font-family: "Quicksand", sans-serif;
+  }
+  .deals h2{
+    font-size: 40px;
+    margin-top: 3rem;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: "Quicksand", sans-serif;
+    margin-bottom: 1rem;
+    color: #104147;
+  }
+  .deal-info p{
+    color: #104147;
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+  }

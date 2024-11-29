@@ -1,0 +1,43 @@
+.gallery-section {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .gallery-section h2 {
+    margin-top: 2rem;
+    font-family: "Quicksand", sans-serif;
+    color: #453953;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 40px;
+  }
+  
+  .gallery-section p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 2rem;
+    font-weight: 400;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15px;
+  }
+  
+  .gallery-item {
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery-item:hover img {
+    transform: scale(1.05);
+  }

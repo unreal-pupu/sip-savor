@@ -1,0 +1,156 @@
+.payment-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 3rem;
+    margin-left: 6rem;
+}
+
+.payment-methods {
+    text-align: center;
+    margin: 20px 0;
+}
+.pay-images img{
+    display: inline-block;
+    width: 300px;
+    height: auto;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+.pay-images img:hover{
+    transform: scale(1.2);
+}
+
+.payment-method h1 {
+    padding-top: 3rem;
+    width: 400px;
+    text-transform: capitalize;
+    font-family: "Quicksand", sans-serif;
+    font-size: 55px;
+    color:  #104147;
+}
+
+.payment-method h4 {
+    padding-top: 1rem;
+    width: 400px;
+    text-transform: capitalize;
+    font-family: "Quicksand", sans-serif;
+    font-size: 25px;
+    color:  #104147;
+    font-weight: 400;
+}
+
+.payment-methods {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.payment-img {
+    width: 100px;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.payment-img:hover {
+    transform: scale(1.1);
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.billing-form, .card-details {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    width: 48%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+.card-details h2{
+    padding-top: 2rem;
+    text-transform: capitalize;
+    font-family: "Quicksand", sans-serif;
+    font-size: 30px;
+    color:  #104147;
+    font-weight: 400;
+}
+
+.billing-form h2 {
+    padding-top: 1rem;
+    text-transform: capitalize;
+    font-family: "Quicksand", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color:  #104147;
+}
+
+    label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: bold;
+        text-transform: capitalize;
+        font-family: "Quicksand", sans-serif;
+        font-weight: 300;
+    }
+    
+    input, .country-select {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 1rem;
+        font-weight: 300;
+    }
+    
+    input[type="text"], input[type="month"], select {
+        font-size: 1rem;
+    }
+    .expiry-container {
+        display: flex;
+        gap: 35px;
+    }
+    
+    .expiry-item {
+        flex: 1;
+    }
+button {
+    width: 100%;
+    padding: 12px;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color:  #d45d35 ;
+    color: #fff;
+}
+
+button.back-btn {
+    margin-bottom: 10px;
+    background-color: #104147;
+    font-family: "Quicksand", sans-serif;
+}
+
+button.proceed-btn {
+    background-color:  #d45d35 ;
+
+}
+.back-btn:hover{
+    background-color:  #d45d35 ;
+    color: #fff;
+}
+.proceed-btn:hover{
+    background-color: #104147;
+    color: #fff;
+} 
